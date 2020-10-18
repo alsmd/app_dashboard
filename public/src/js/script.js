@@ -18,4 +18,10 @@ $(document).ready(() => {
             $("#pagina").html(data);
         })
     })
+    //Inserindo informações no Dash
+    $.post('src/dados.php',(data)=>{
+        $info = JSON.parse(data)
+        $("#numero_vendas").html($info.numeroVendas);
+        $("#total_vendas").html($info.totalVendas);
+    })
 })
