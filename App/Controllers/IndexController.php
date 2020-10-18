@@ -12,15 +12,6 @@
         public function index(){
             $this->render('index');
         }
-        public function suporte(){
-
-            $this->render('suporte');
-        }
-
-        public function documentacao(){
- 
-            $this->render('documentacao');
-        }
 
         public function render($view){
             $nome = get_class();

@@ -13,16 +13,7 @@
                 "controller" => "indexController",
                 "action" => "index"
             ];
-            $route['suporte'] = [
-                "route" => "/suporte",
-                "controller" => "indexController",
-                "action" => "suporte"
-            ];
-            $route['documentacao'] = [
-                "route" => "/documentacao",
-                "controller" => "indexController",
-                "action" => "documentacao"
-            ];
+
             parent::setRoutes($route);
         }
         
