@@ -1,0 +1,19 @@
+{
+    "name":"Estudos",
+    "require":{
+        "php":">= 7.0"
+    },
+    "authors":[
+        {
+            "name":"Flavio da Silva",
+            "email":"ytbreborn@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "App\\":"App/",
+            "MF\\":"vendor/MF/"
+        }
+    }
+
+}
